@@ -1,0 +1,11 @@
+{
+  "name": "mod101",
+  "version": "0.1.1",
+  "type": "module",
+  "description": "mod101",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  }
+}
