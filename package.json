@@ -8,10 +8,12 @@
   },
   "dependencies": {
     "canvas-confetti": "^1.2.0",
-    "mod101": "file:mod101"
+    "eslint": "^7.11.0",
+    "mod101": "file:mod101",
+    "npm": "^7.0.2"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
-    "snowpack": "^2.13.0"
+    "snowpack": "^2.15.0-pre.5"
   }
 }
