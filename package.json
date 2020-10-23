@@ -9,8 +9,7 @@
   "dependencies": {
     "canvas-confetti": "^1.2.0",
     "eslint": "^7.11.0",
-    "mod101": "file:mod101",
-    "npm": "^7.0.2"
+    "mod101": "file:mod101"
   },
   "devDependencies": {
     "@noseratio/rollup-acorn-conf": "file:rollup-acorn-conf",
