@@ -1,4 +1,4 @@
-﻿module.exports = function plugin (hostOptions = {}) {
+﻿module.exports = function plugin(hostOptions = {}) {
   return { 
     name: 'rollup-acorn-conf',
 
