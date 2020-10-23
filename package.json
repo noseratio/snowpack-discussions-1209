@@ -13,10 +13,10 @@
     "npm": "^7.0.2"
   },
   "devDependencies": {
+    "@noseratio/rollup-acorn-conf": "file:rollup-acorn-conf",
     "acorn-stage3": "^4.0.0",
     "prettier": "^2.0.5",
     "rollup": "^2.32.1",
-    "rollup-acorn-conf": "^0.1.1",
     "snowpack": "^2.15.1"
   }
 }

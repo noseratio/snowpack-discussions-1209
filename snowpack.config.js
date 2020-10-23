@@ -6,7 +6,7 @@
 
   installOptions: {
     rollup: { 
-      plugins: [require('rollup-acorn-conf')()]
+      plugins: [require('@noseratio/rollup-acorn-conf')()]
     }
   }
 }

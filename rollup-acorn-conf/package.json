@@ -1,11 +1,11 @@
 {
-  "name": "rollup-acorn-conf",
+  "name": "@noseratio/rollup-acorn-conf",
   "version": "0.1.1",
-  "description": "rollup acorn conf",
+  "description": "Enable ES2020 features (Stage 3) for Rollup.js",
+  "homepage": "https://github.com/noseratio/snowpack-discussions-1209",
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
-    "acorn-private-methods": "^0.3.3",
     "acorn-stage3": "^4.0.0"
   }
 }
