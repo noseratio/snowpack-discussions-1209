@@ -1,0 +1,11 @@
+{
+  "name": "rollup-acorn-conf",
+  "version": "0.1.1",
+  "description": "rollup acorn conf",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "acorn-private-methods": "^0.3.3",
+    "acorn-stage3": "^4.0.0"
+  }
+}
