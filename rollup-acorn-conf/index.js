@@ -1,14 +1,16 @@
-﻿module.exports = function plugin(hostOptions = {}) {
+﻿"use strict";
+
+module.exports = function plugin(hostOpts = {}) {
   return { 
     name: 'rollup-acorn-conf',
 
-    options: (opts) => { 
+    options: rollupOpts => { 
       console.log("Enabling 'acorn-stage3'...");
-      opts.acorn = opts.acorn ?? {};
-      opts.acorn.ecmaVersion = 2020;
-      opts.acornInjectPlugins = opts.acornInjectPlugins ?? [];
-      opts.acornInjectPlugins.push(require('acorn-stage3'));
-      return opts;
+      rollupOpts.acorn = rollupOpts.acorn ?? {};
+      rollupOpts.acorn.ecmaVersion = 2020;
+      rollupOpts.acornInjectPlugins = rollupOpts.acornInjectPlugins ?? [];
+      rollupOpts.acornInjectPlugins.push(require('acorn-stage3'));
+      return rollupOpts;
     }
   };
 };
